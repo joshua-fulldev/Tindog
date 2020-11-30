@@ -1,0 +1,334 @@
+body {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #ec524b;
+    margin-top: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+div, p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.top-page {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #ec524b;
+    color: white;
+}
+
+.my-top-btn {
+    
+}
+
+.no-use {
+    margin-top: 0;
+    height: 3rem;
+}
+
+.top_container {
+    margin: 0;
+    background-color: #ec524b;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.img_container {
+    height: 100px;
+}
+
+.container-md {}
+
+.ul-custom {
+    margin: auto;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+a.brand-custom {
+    color: white;
+}
+
+.top_link:hover {
+    text-decoration: none;
+    color: white !important;
+}
+
+.nav-brand {
+    font-size: 60px;
+}
+
+.my-container {
+    
+}
+
+.col-container {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.top-text {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left !important;
+}
+
+.phone-img {
+    display: inline-block;
+    margin: auto;
+    transform: rotate(20deg);
+}
+
+.my-btn {
+    display: inline-block;
+}
+
+.btn-group {
+    text-align: left !important;
+}
+
+.features-container {
+    z-index: 100;
+    background-color: white;
+    height: 400px;
+    max-height: auto;
+}
+
+.feature-cover {   
+    display: flex;
+    flex-direction: row;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-top: 15%;
+}
+
+.feature-box {
+    width: 30%;
+    padding: 5%;
+}
+
+.carousell {
+    height: auto;
+    min-height: 500px;
+    text-align: center;
+    line-height: 2;
+}
+
+.carousel-item-wording {
+    line-height: 1.5;
+}
+
+.carousel-pen {
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    text-align: center;
+    line-height: 2;
+}
+
+.sponsor-container {
+    background-color: rgba(228, 103, 103, 0.5);
+    height: 200px;
+    min-height: auto;
+    max-height: auto;
+}
+
+.sponsor-cargo {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-i-block {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 20%;
+    height: 150px;
+}
+
+.Plan-page {
+    background-color: white;
+    height: 100vh;
+    min-height: auto;
+}
+
+.Plan-heading-container {
+    height: 20%;
+    min-height: 20%;
+    color: black;    
+}
+
+.Plan-heading {
+    padding-top: 5%;
+    line-height: 1.5;
+}
+
+.card-container {
+    height: auto;
+}
+
+.card-cover {
+    width: 85%;
+    margin: 5% auto;
+    display: flex;
+}
+
+.my-card {
+    min-height: 350px;
+    width: 30%;
+}
+
+.my-middle-card {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.Download-section {
+    height: auto;
+    min-height: 350px;
+}
+
+.Download-content {
+    color: white;
+    margin-top: 100px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Download-writing {
+    font-size: 54px;
+    text-align: center;
+}
+
+.download-btn {
+    display: inline-block;
+    font-size: 1.5rem;
+    min-height: 50px;
+}
+
+.first-download-btn {
+    padding-right: 10px;
+}
+
+.copyright-section {
+    background-color: white;
+    height: auto;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.mobile-end-section {
+    display: none;  
+}
+
+
+@media only screen and (max-width: 500px) {
+    .phone-img {
+        transform: rotate(0deg);
+    }
+
+    .features-container {
+        z-index: 100;
+        background-color: white;
+        height: auto;
+        max-height: auto;
+    }
+
+    .feature-cover {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature-box {
+        width: 100%;
+        padding: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .Plan-page {
+        height: fit-content;
+    }
+
+    .card-cover {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .my-card {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .my-middle-card {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .img-i-block {
+        height: 70px;
+    }
+
+    .Download-section {
+        display: none !important;
+    }
+
+    .copyright-section {
+        display: none !important;
+    }
+
+    .mobile-end-section {
+        display: block;
+        margin-top: 10px;
+        height: 90px;
+    }
+
+    .my-last-card {
+        margin-bottom: 10px;
+    }
+
+    .sponsor-container {
+        background-color: rgba(228, 103, 103, 0.5);
+        height: 100px;
+        min-height: auto;
+        max-height: auto;
+    }
+    
+    .sponsor-cargo {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .img-i-block {
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 20%;
+        height: 100%;
+    }   
+
+}
+
+@media only screen and (min-width: 1400px) {
+    .phone-img {
+        height: 200%;
+    }
+}
