@@ -1,5 +1,5 @@
 body {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
     background-color: #ec524b;
@@ -24,7 +24,7 @@ div, p {
 }
 
 .my-top-btn {
-    
+
 }
 
 .no-use {
@@ -42,11 +42,13 @@ div, p {
     height: 100px;
 }
 
-.container-md {}
+.container-md {
+    
+}
 
 .ul-custom {
     margin: auto;
-    font-size: 30px;
+    font-size: 1.4rem;
     font-weight: bolder;
 }
 
@@ -60,7 +62,7 @@ a.brand-custom {
 }
 
 .nav-brand {
-    font-size: 60px;
+    font-size: 3.75rem;
 }
 
 .my-container {
@@ -73,8 +75,13 @@ a.brand-custom {
     display: inline-block;
 }
 
+.my-col {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
 .top-text {
-    font-size: 3.5rem;
+    font-size: 3.0rem;
     line-height: 1.5;
     font-weight: bolder;
     font-family: 'Montserrat', sans-serif;
@@ -237,6 +244,16 @@ a.brand-custom {
 
 
 @media only screen and (max-width: 500px) {
+    .my-top-btn {
+        margin-right: auto;
+    
+    }
+
+    .my-ttop-btn {
+        margin-right: 0.5rem;
+    }
+
+
     .phone-img {
         transform: rotate(0deg);
     }
@@ -294,11 +311,7 @@ a.brand-custom {
         display: none !important;
     }
 
-    .mobile-end-section {
-        display: block;
-        margin-top: 10px;
-        height: 90px;
-    }
+    
 
     .my-last-card {
         margin-bottom: 10px;
@@ -323,7 +336,14 @@ a.brand-custom {
         margin-right: 5px;
         width: 20%;
         height: 100%;
-    }   
+    }  
+    
+    .mobile-end-section {
+        display: block;
+        margin-top: 10px;
+        height: 100px;
+        background-color: #ec524b;
+    }
 
 }
 
